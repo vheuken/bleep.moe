@@ -1,0 +1,38 @@
+body {
+  background-color: #4d1f00;
+  margin: auto;
+
+}
+
+.stream {
+  float:left;
+  width: 50%;
+  height: 60%;
+  padding: 5px;
+
+}
+
+#chat {
+  float: left;
+  width: 25%;
+  height: 60%;
+  padding: 5px;
+
+}
+
+#blog {
+  float: left;
+  width: 50%;
+  height: 30%;
+  padding: 2px;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  float: right;
+  width: 80%;
+  border: 0px solid #000000;
+  padding: 10px;
+
+}
