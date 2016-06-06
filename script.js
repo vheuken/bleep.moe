@@ -1,15 +1,14 @@
-var stream_num = 1;
-
-$("#stream_2").hide();
-
-$("#switch_button").click(function() {
-  if (stream_num === 1) {
-    $("#stream_1").hide();
-    $("#stream_2").show();
-    stream_num = 2;
-  } else {
-    $("#stream_2").hide();
-    $("#stream_1").show();
-    stream_num = 1;
-  }
+$("#hitbox-button").click(function() {
+  $("#stream_1").hide();
+  $("#stream_2").show();
+  $("#streamup-li").removeClass("active");
+  $("#hitbox-li").addClass("active");
 });
+
+$("#streamup-button").click(function() {
+  $("#stream_2").hide();
+  $("#stream_1").show();
+  $("#streamup-li").addClass("active");
+  $("#hitbox-li").removeClass("active");
+});
+
