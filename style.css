@@ -6,18 +6,15 @@ body {
 
 .stream {
   float:left;
-  width: 50%;
-  height: 60%;
-  padding: 5px;
+  width: 75%;
+  height: 100%;
 
 }
 
 #chat {
-  float: left;
+  float: right;
   width: 25%;
-  height: 60%;
-  padding: 5px;
-
+  height: 100%;
 }
 
 #blog {
@@ -31,8 +28,6 @@ body {
   width: 100%;
   margin: 0 auto;
   float: right;
-  width: 80%;
   border: 0px solid #000000;
-  padding: 10px;
-
+  height: 100%;
 }
