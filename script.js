@@ -1,3 +1,5 @@
+$("#stream_1").hide();
+
 $("#hitbox-button").click(function() {
   $("#stream_1").hide();
   $("#stream_2").show();
