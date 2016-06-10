@@ -8,7 +8,6 @@ body {
   float:left;
   width: 75%;
   height: 100%;
-
 }
 
 #right {
@@ -18,7 +17,12 @@ body {
 }
 
 #chat {
-  height: 50%;
+  height: 80%;
+}
+
+.navbar {
+  height: 20%;
+  margin-bottom: 0 !important;
 }
 
 #blog {
